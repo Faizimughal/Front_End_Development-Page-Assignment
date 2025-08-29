@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font: "Urbanist", sans-serif;
+  --btn-bg: #2ad884;
+  --text-color2: #ff9067;
+  --text-color: #4c4c4c;
+  --hover-color: #c9b2ff;
+  --link-color: #1d1d1c;
+  --transition: all 0.3s ease-in-out;
+}
+
+/* =====================Upper-Nav===================== */
+.upper-nav {
+  background-color: var(--hover-color);
+  display: flex;
+  height: 40px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  justify-content: end;
+  padding: 15px;
+  width: 100%;
+}
+.upper-nav .center {
+  margin-right: 90px;
+}
+.upper-nav .right {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  gap: 5px;
+}
+
+/* ======================Lower-Nav===================== */
+.lower-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  width: 100%;
+  background-color: white;
+  padding: 10px 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.lower-nav .links > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.lower-nav .links > ul > li > a {
+  font-size: 17px;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--link-color);
+}
+.lower-nav .links > ul > li > a:hover {
+  color: var(--btn-bg);
+  transition: var(--transition);
+}
+.lower-nav .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.lower-nav .buttons .btn1 {
+  text-align: center;
+  font-size: 12px;
+  height: 48px;
+  width: 96px;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: var(--btn-bg);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.lower-nav .buttons .btn1:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
+.lower-nav .buttons .btn2 {
+  font-size: 13px;
+  font-weight: 600;
+  height: 51px;
+  width: 160px;
+  padding: 10px 23px;
+  border-radius: 50px;
+  background-color: var(--btn-bg);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.lower-nav .buttons .btn2:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
+.lower-nav .buttons button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ===================================hero-section=============== */
+.hero-section {
+  height: 100vh;
+  max-width: 100vw;
+  width: 100%;
+  background-image: url("/assets/images/hero-section-eclipse1.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.hero-section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 687px;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.hero-section .container .left-content {
+  height: 571px;
+  max-width: 657px;
+  width: 100%;
+  padding: 0 26px;
+  color: var(--text-color);
+}
+.hero-section .container .left-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  line-height: 57px;
+}
+.hero-section .container .left-content .p3 span {
+  color: #e95095;
+}
+.hero-section .container .left-content .stars {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.hero-section .container .left-content .stars > span {
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--link-color);
+}
+.hero-section .container .left-content .google {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.hero-section .container .left-content .google .side-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-section .container .left-content .buttons .btn1 {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 44px;
+  width: 273px;
+  background-color: var(--btn-bg);
+  font-size: 17px;
+  font-weight: 600;
+}
+.hero-section .container .left-content .buttons .btn1 a {
+  color: white;
+  text-decoration: none;
+}
+.hero-section .container .left-content .buttons .btn1:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
+.hero-section .container .left-content .buttons .btn2 {
+  height: 44px;
+  width: 170px;
+  outline: none;
+  border: 2px solid var(--btn-bg);
+  cursor: pointer;
+  border-radius: 50px;
+  background: transparent;
+}
+.hero-section .container .left-content .buttons .btn2:hover {
+  transition: var(--transition);
+  background-color: var(--btn-bg);
+}
+.hero-section .container .left-content .buttons .btn2 a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.hero-section .container .left-content .google .side-section span {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--link-color);
+}
+.hero-section .container .left-content .google .side-section .span2 {
+  color: #fbb001;
+}
+.hero-section .container .right-content {
+  width: 665;
+  height: 687;
+}
+.hero-section .container .right-content img {
+  width: 500px;
+  height: 520px;
+  object-fit: cover;
+}
+.hero-section .container .left-content .eclipse2 {
+  position: absolute;
+  top: 560px;
+  left: -40px;
+  z-index: -1;
+}
+/* ===========================section2======================== */
