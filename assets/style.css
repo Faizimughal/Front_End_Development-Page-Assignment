@@ -936,3 +936,110 @@ body {
   max-width: 250px;
   width: 100%;
 }
+/* ===========================section-9========================= */
+.section9 {
+  max-width: 100vw;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section9 .section9-eclipse > img {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  height: 300px;
+}
+.section9 .container9 {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 100px;
+  max-width: 90vw;
+  width: 100%;
+  padding: 10px;
+}
+.section9 .container9 .lc > img {
+  max-width: 500px;
+  height: 100%;
+}
+.section9 .container9 .rc {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section9 .container9 .rc h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section9 .container9 .rc h2 .section9-text-highlighter {
+  position: relative;
+}
+.section9 .container9 .rc h2 .section9-text-highlighter img {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.section9 .container9 .rc .input-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.section9 .container9 .rc .input-fields .first-row,
+.section9 .container9 .rc .input-fields .second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section9 .container9 .rc .input-fields input {
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.06);
+}
+.section9 .container9 .rc .input-fields input:focus {
+  outline: 2px solid var(--btn-bg);
+  transition: var(--transition);
+}
+.section9 .container9 .rc .input-fields input,
+.section9 .container9 .rc .text-area textarea::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+}
+.section9 .container9 .rc .text-area textarea {
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  height: 150px;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.06);
+}
+.section9 .container9 .rc .text-area textarea:focus {
+  outline: 2px solid var(--btn-bg);
+  transition: var(--transition);
+}
+.section9 .container9 .rc .btn button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  background-color: var(--btn-bg);
+  color: white;
+}
+.section9 .container9 .rc .btn button:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
