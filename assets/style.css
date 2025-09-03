@@ -330,7 +330,6 @@ body {
   position: relative;
 }
 .container2 {
-  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -443,6 +442,7 @@ body {
   }
   .section2 .container2 {
     margin: auto;
+    width: 100%;
   }
 
   .section2 .container2 h2 {
@@ -661,7 +661,6 @@ body {
     display: none;
   }
   .section3 .container3 .middle-div {
-    max-width: 300px;
     width: 100%;
     margin: 10px auto;
   }
@@ -1403,7 +1402,6 @@ body {
     display: none;
   }
   .section9 .container9 .rc {
-    max-width: 300px;
     width: 100%;
     text-align: center;
   }
