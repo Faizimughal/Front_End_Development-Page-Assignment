@@ -206,6 +206,7 @@ body {
   align-items: center;
   margin-top: 10px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .hero-section .container .left-content .google .side-section {
   display: flex;
