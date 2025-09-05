@@ -79,6 +79,9 @@ body {
   color: var(--btn-bg);
   transition: var(--transition);
 }
+.lower-nav .links > ul > li > a.active {
+  color: var(--btn-bg);
+}
 .lower-nav .buttons {
   display: flex;
   justify-content: center;
