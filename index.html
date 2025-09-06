@@ -35,7 +35,7 @@
         <div class="links">
           <ul>
             <li>
-              <a href="/Pages/Comptabilité.html" class="active">Comptabilité</a>
+              <a href="/Pages/Comptabilité.html">Comptabilité</a>
             </li>
             <li><a href="">Créer mon entreprise</a></li>
             <li><a href="">Notre appli</a></li>
@@ -572,14 +572,3 @@
     </footer>
   </body>
 </html>
-
-<script>
-  const currentLocation = window.location.href;
-  const menuItems = document.querySelectorAll("nav a");
-
-  menuItems.forEach((item) => {
-    if (item.href === currentLocation) {
-      item.classList.add("active");
-    }
-  });
-</script>
