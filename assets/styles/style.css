@@ -342,10 +342,8 @@ body {
 }
 /* ===========================section2======================== */
 .section2 {
-  height: 100vh;
-  max-width: 100vw;
+  height: 100%;
   width: 100%;
-  margin-top: 100px;
   position: relative;
 }
 .container2 {
@@ -395,53 +393,62 @@ body {
 }
 .container2 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 90%;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
 }
 .cards .card1,
 .cards .card2,
 .cards .card3 {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 auto;
-  max-width: 372px;
-  width: 100%;
-  height: 309px;
+  width: 353px;
+  height: 291px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.06);
-
   border-radius: 20px;
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
 }
+.cards .card1 h4,
+.cards .card2 h4,
+.cards .card3 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 5px 0 0 0;
+}
+.cards .card1 p,
+.cards .card2 p,
+.cards .card3 p {
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--text-color);
+}
 
 .cards .card1 .box,
 .cards .card2 .box,
 .cards .card3 .box {
-  height: 50px;
-  width: 50px;
+  height: 57px;
+  width: 57px;
   border-radius: 5px;
   background-color: var(--btn-bg);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
   color: black;
-  font-weight: 600;
-  font-size: 30px;
+  font-size: 50px;
 }
 .cards .card1 .box1 {
-  background-color: #87cfff;
+  background-color: rgb(185, 220, 244);
 }
 .cards .card2 .box2 {
-  background-color: #69bdf5;
+  background-color: rgb(143, 217, 181);
 }
 .cards .card3 .box3 {
-  background-color: #c9b2ff;
+  background-color: rgb(223, 211, 252);
 }
 
 .section2 .eclipse2 {
@@ -483,13 +490,12 @@ body {
 
 /* ========================section 3============================ */
 .section3 {
-  height: 100vh;
-  width: 95vw;
+  height: 100%;
+  width: 95%;
   margin-top: 100px;
   position: relative;
 }
 .section3 .container3 {
-  max-width: 1800px;
   height: 709px;
   margin: 0 auto;
   display: flex;
@@ -525,15 +531,15 @@ body {
   flex-direction: column;
 }
 .section3 .container3 .lower-div .card {
-  max-width: 553px;
-  width: 100%;
+  width: 553px;
   border-radius: 38px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   gap: 30px;
   flex-direction: column;
+  margin: 40px 28px 0 28px;
 }
 .section3 .container3 .middle-div .upper-div {
   display: flex;
