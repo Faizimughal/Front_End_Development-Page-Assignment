@@ -603,7 +603,6 @@ body {
 }
 .section3 .container3 .right-content .questions .question1 .answer.none {
   display: none;
-  transition: all 0.3s ease-in-out;
 }
 .section3 .container3 .right-content .button-div {
   height: 120px;
