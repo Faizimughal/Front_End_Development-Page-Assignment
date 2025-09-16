@@ -151,6 +151,364 @@ body {
 .section1 {
   width: 100%;
   height: 100%;
+  margin-top: 140px;
+  position: relative;
+}
+.section1::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/section8-eclipse.png");
+  height: 600px;
+  width: 80px;
+  top: -15%;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section1::before {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/Ellipse-15-1.svg");
+  height: 400px;
+  width: 100px;
+  top: 80%;
+  right: 0;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section1 .container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.section1 .container1 .upper-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.section1 .container1 .upper-content h1 .section1-text-highlighter {
+  position: relative;
+  display: inline-block;
+}
+.section1 .container1 .upper-content h1 .section1-text-highlighter::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/span1-underline.png");
+  height: 170%;
+  width: 100%;
+  left: -4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section1 .container1 .upper-content {
+  width: 700px;
+  padding: 10px 26px;
+  text-align: center;
+}
+.section1 .container1 .upper-content p {
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--text-color);
+  text-align: center;
+}
+.section1 .container1 .upper-content p:nth-child(3) {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.section1 .container1 .upper-content .btn button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 44px;
+  width: 200px;
+  background-color: var(--btn-bg);
+  color: white;
+}
+.section1 .container1 .upper-content .btn button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section1 .container1 .upper-content .btn button:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
+
+/* ===========================section2===================== */
+
+.section2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+.section2::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/Ellipse-12-5.svg");
+  height: 600px;
+  width: 90px;
+  bottom: 0;
+  top: 70%;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section2 .container2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.section2 .container2 h2 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+  width: 549px;
+}
+.section2 .container2 h2 .section2-text-highlighter {
+  position: relative;
+  display: inline-block;
+}
+.section2 .container2 h2 .section2-text-highlighter::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/Vector-18.svg");
+  height: 170%;
+  width: 120%;
+  left: -15px;
+  top: -19px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section2 .container2 .lower-row,
+.section2 .container2 .upper-row {
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+}
+.section2 .container2 .upper-row .card,
+.section2 .container2 .lower-row .card {
+  height: 271.891px;
+  width: 359px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.section2 .container2 .upper-row .card h5,
+.section2 .container2 .lower-row .card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  color: #1d1d1c;
+}
+.section2 .container2 .upper-row .card h3,
+.section2 .container2 .lower-row .card h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 5px;
+  color: #1d1d1c;
+}
+.section2 .container2 .upper-row .card1 {
+  background-color: rgba(42, 216, 132, 0.1);
+}
+.section2 .container2 .upper-row .card2 {
+  background-color: rgba(135, 207, 255, 0.1);
+}
+.section2 .container2 .upper-row .card3 {
+  background-color: rgba(201, 178, 255, 0.1);
+}
+.section2 .container2 .lower-row .card4 {
+  background-color: rgba(255, 227, 79, 0.1);
+}
+.section2 .container2 .lower-row .card5 {
+  background-color: rgba(255, 144, 103, 0.1);
+}
+.section2 .container2 .lower-row .card6 {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================section3================ */
+
+.section3 {
+  width: 100%;
+  height: 100%;
+  margin: 180px auto 0 auto;
+  position: relative;
+}
+.section3::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/section8-eclipse.png");
+  height: 700px;
+  width: 100px;
+  top: 50%;
+  right: 0;
+  transform: rotate(180deg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section3 .container3 {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.section3 .container3 .left-content img {
+  width: 556px;
+}
+.section3 .container3 .right-content {
+  width: 607px;
+  padding: 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section3 .container3 .right-content h2 {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+.section3 .container3 .right-content h2 .section3-text-highlighter {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+}
+.section3 .container3 .right-content h2 .section3-text-highlighter::after {
+  content: "";
+  position: absolute;
+  background: url("/assets/images/span1-underline.png");
+  height: 170%;
+  width: 105%;
+  left: -2px;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section3 .container3 .right-content .steps h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.section3 .container3 .right-content .steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.section3 .container3 .right-content .steps .step1 .box,
+.section3 .container3 .right-content .steps .step2 .box,
+.section3 .container3 .right-content .steps .step3 .box,
+.section3 .container3 .right-content .steps .step4 .box {
+  height: 57px;
+  width: 57px;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.section3 .container3 .right-content .steps .step1 .box1 {
+  background-color: rgb(135, 207, 255, 0.3);
+}
+.section3 .container3 .right-content .steps .step2 .box2 {
+  background-color: rgb(255, 144, 103, 0.3);
+}
+.section3 .container3 .right-content .steps .step3 .box3 {
+  background-color: rgb(255, 227, 79, 0.3);
+}
+.section3 .container3 .right-content .steps .step4 .box4 {
+  background-color: rgb(201, 178, 255, 0.3);
+}
+.section3 .container3 .right-content .steps .step1 p,
+.section3 .container3 .right-content .steps .step2 p,
+.section3 .container3 .right-content .steps .step3 p,
+.section3 .container3 .right-content .steps .step4 p {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.section3 .container3 .right-content .steps .step1,
+.section3 .container3 .right-content .steps .step2,
+.section3 .container3 .right-content .steps .step3,
+.section3 .container3 .right-content .steps .step4 {
+  display: flex;
+  align-items: center;
+  width: 556px;
+  gap: 10px;
+}
+.section3 .container3 .right-content .buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -5px;
+}
+.section3 .container3 .right-content .buttons span {
+  font-size: 17px;
+  font-weight: 700;
+}
+.section3 .container3 .right-content .buttons .btn1 button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 44px;
+  width: 200px;
+  background-color: var(--btn-bg);
+  color: white;
+}
+.section3 .container3 .right-content .buttons .btn1 button:hover {
+  transition: var(--transition);
+  background-color: var(--hover-color);
+}
+.section3 .container3 .right-content .buttons .btn1 button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.section3 .container3 .right-content .buttons .btn2 button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 44px;
+  width: 278px;
+  background-color: white;
+  border: 2px solid var(--btn-bg);
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.section3 .container3 .right-content .buttons .btn2 button:hover {
+  transition: var(--transition);
+  background-color: var(--btn-bg);
+  color: white;
+  border: 2px solid var(--hover-color);
 }
 
 /* ===========================section-4========================= */
@@ -162,12 +520,6 @@ body {
   align-items: center;
   position: relative;
   margin-top: 20px;
-}
-.section9 .section9-eclipse > img {
-  position: absolute;
-  right: 0px;
-  top: 100px;
-  height: 300px;
 }
 .section9 .container9 {
   display: flex;
