@@ -65,6 +65,9 @@ body {
   z-index: 100;
   top: 40px;
 }
+.lower-nav .logo {
+  cursor: pointer;
+}
 .lower-nav .links > ul {
   list-style: none;
   display: flex;
