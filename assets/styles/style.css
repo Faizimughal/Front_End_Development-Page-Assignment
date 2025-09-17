@@ -735,7 +735,7 @@ body {
   padding: 0 26px;
 }
 .section4 .container4 .right-content {
-  padding: 30px;
+  padding: 30px 5px;
   width: 100%;
   height: 800px;
   display: flex;
