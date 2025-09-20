@@ -79,6 +79,9 @@ body {
   text-decoration: none;
   color: var(--link-color);
 }
+.lower-nav .links > ul > li > a.active {
+  color: var(--btn-bg);
+}
 .lower-nav .links > ul > li > a:hover {
   color: var(--btn-bg);
   transition: var(--transition);
@@ -147,6 +150,145 @@ body {
   .lower-nav .buttons .btn2 {
     display: none;
   }
+}
+
+/* =============================section============ */
+
+.section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 130px auto 0 auto;
+}
+.section::after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 500px;
+  top: 5%;
+  left: -120px;
+  background: url("/assets/images/section9-eclipse.png") no-repeat
+    center/contain;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+.section::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 400px;
+  top: 70%;
+  right: 0px;
+  background: url("/assets/images/Ellipse-16-2.svg") no-repeat center/contain;
+  opacity: 0.9;
+}
+.section .container {
+  width: 1266px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 26px;
+}
+.section .container h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #1d1d1c;
+}
+.section .container h1 span.text-highlighter {
+  display: inline-block;
+  position: relative;
+}
+.section .container h1 span.text-highlighter::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: url("/assets/images/span1-underline.png") no-repeat center/cover;
+  bottom: 0;
+  left: 0;
+}
+.section .container .img img {
+  width: 1164px;
+  max-width: 100%;
+}
+.section .container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1164px;
+  gap: 30px;
+  margin-top: 50px;
+}
+form .input-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+form .input-fields .first-row,
+form .input-fields .second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+form .input-fields .first-row > input,
+form .input-fields .second-row > input {
+  width: 566px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 5px 4px 5px 30px;
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.06);
+  border: none;
+  outline: none;
+}
+form .input-fields .first-row > input:focus,
+form .input-fields .second-row > input:focus {
+  border: 2px solid var(--btn-bg);
+}
+form .input-fields .first-row > input::placeholder,
+form .input-fields .second-row > input::placeholder {
+  font-size: 17px;
+  color: var(--text-color);
+}
+form .text-area > textarea {
+  width: 1148px;
+  height: 160px;
+  border-radius: 30px;
+  padding: 20px 8px 6px 30px;
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.06);
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+form .text-area > textarea:focus {
+  border: 2px solid var(--btn-bg);
+}
+form .text-area > textarea::placeholder {
+  font-size: 17px;
+  color: var(--text-color);
+}
+form .btn > button {
+  width: 240px;
+  height: 47px;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: var(--btn-bg);
+  border: none;
+  outline: none;
+}
+form .btn > button:hover {
+  background-color: var(--hover-color);
+  transition: var(--transition);
 }
 
 /* ===========================footer-section=========== */
